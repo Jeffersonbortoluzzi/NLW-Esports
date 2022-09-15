@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    padding: 32px ;
+    padding: 32px;
 }
 
 header div {
@@ -32,6 +32,11 @@ header div {
     border-radius: 50%;
     display: flex;
     padding: 5px;
+    transition: transform 0.3s;
+}
+
+header div:hover {
+    transform: scale(1.1);
 }
 
 header div img {
@@ -80,6 +85,14 @@ section ul {
     display: flex;
     gap: 16px;
     margin-top: 24px;
+}
+
+section ul li {
+    transition: transform 0.3s;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
 }
 
 .games-list img {
