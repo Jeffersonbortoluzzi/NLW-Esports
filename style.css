@@ -14,7 +14,7 @@ body * {
 }
 
 body {
-    background-image: url(../nlw-rocketseat/);
+    background-image: url(./assets/bg.jpg);
     background-position: top center;
     background-size: 100%;
     background-repeat: no-repeat;
